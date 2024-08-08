@@ -1,0 +1,54 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    color: rgb(141, 233, 4);
+    
+}
+
+.sfondo{
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin: auto;
+    border-radius: 3%;
+}
+
+#logo{
+    height:150px;width: 350px;
+}
+
+nav{
+    width:auto;
+    background-color: rgb(141, 233, 4);
+    padding: 10px;
+    }
+
+main{
+    text-align: left;color: white;
+}
+
+.posizione:before{
+    content: "\21A6";
+}
+
+.carico,.medio,.scarico{
+    margin:20px left; padding:15px;border-radius: 10px;
+}
+
+.carico{
+    width: 500px; background-color: green;
+}
+
+
+.medio{
+    width: 300px;background-color: orange;
+}
+
+.scarico{
+    width: 130px;background-color: red;   
+}
+
+
+h2{display: inline-block;}
